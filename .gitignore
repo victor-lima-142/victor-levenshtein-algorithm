@@ -12,5 +12,5 @@
 #!.yarn/cache
 .pnp.*
 
-./package.tgz
-./editorconfig
+/package.tgz
+/.editorconfig
