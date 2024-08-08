@@ -1,0 +1,20 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.BaseLevenshtein = exports.Levenshtein = exports.LevenshteinObject = exports.normalizeString = exports.regularLevenshteinAlgorithm = exports.basicLevenshteinAlgorithm = exports.optimizedLevenshteinAlgorithm = void 0;
+var optimized_1 = require("./utils/optimized");
+Object.defineProperty(exports, "optimizedLevenshteinAlgorithm", { enumerable: true, get: function () { return __importDefault(optimized_1).default; } });
+var basic_1 = require("./utils/basic");
+Object.defineProperty(exports, "basicLevenshteinAlgorithm", { enumerable: true, get: function () { return __importDefault(basic_1).default; } });
+var regular_1 = require("./utils/regular");
+Object.defineProperty(exports, "regularLevenshteinAlgorithm", { enumerable: true, get: function () { return __importDefault(regular_1).default; } });
+var normalize_1 = require("./utils/normalize");
+Object.defineProperty(exports, "normalizeString", { enumerable: true, get: function () { return __importDefault(normalize_1).default; } });
+var LevenshteinToArrays_1 = require("./classes/LevenshteinToArrays");
+Object.defineProperty(exports, "LevenshteinObject", { enumerable: true, get: function () { return __importDefault(LevenshteinToArrays_1).default; } });
+var Concrete_1 = require("./classes/Concrete");
+Object.defineProperty(exports, "Levenshtein", { enumerable: true, get: function () { return __importDefault(Concrete_1).default; } });
+var Abstract_1 = require("./classes/Abstract");
+Object.defineProperty(exports, "BaseLevenshtein", { enumerable: true, get: function () { return __importDefault(Abstract_1).default; } });
