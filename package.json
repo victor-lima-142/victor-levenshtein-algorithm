@@ -1,6 +1,6 @@
 {
   "name": "victor-levenshtein-algorithm",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Este pacote oferece uma coleção de algoritmos úteis relacionados ao cálculo de similaridade de strings utilizando o algoritmo de Levenshtein. Ideal para desenvolvedores que precisam comparar strings de forma eficiente e precisa, ele inclui funções avançadas para análise de similaridade, permitindo manipulações e comparações mais detalhadas. Fácil de integrar em projetos JavaScript e TypeScript, este pacote é uma ferramenta essencial para quem precisa lidar com comparação de textos, detecção de erros de digitação, e outras aplicações que envolvem a proximidade entre strings.",
   "main": "./dist/index.js",
   "keywords": [
